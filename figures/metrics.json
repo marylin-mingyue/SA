@@ -1,0 +1,33 @@
+{
+  "threshold": 0.03,
+  "methods": {
+    "SGD": {
+      "final_loss": 0.02893923409283161,
+      "final_accuracy": 0.9755859375,
+      "loss_at_10": 0.12078429013490677,
+      "loss_at_20": 0.0847911611199379,
+      "epoch_to_threshold": 47
+    },
+    "TrustRegionNewtonCG": {
+      "final_loss": 0.017226099967956543,
+      "final_accuracy": 0.984375,
+      "loss_at_10": 0.03320296108722687,
+      "loss_at_20": 0.022375330328941345,
+      "epoch_to_threshold": 11
+    },
+    "GaussNewtonCG": {
+      "final_loss": 0.0013387807412073016,
+      "final_accuracy": 1.0,
+      "loss_at_10": 0.015048463828861713,
+      "loss_at_20": 0.0035371528938412666,
+      "epoch_to_threshold": 3
+    },
+    "TrustRegionGaussNewtonCG": {
+      "final_loss": 0.012009283527731895,
+      "final_accuracy": 0.98583984375,
+      "loss_at_10": 0.024900931864976883,
+      "loss_at_20": 0.02072577178478241,
+      "epoch_to_threshold": 3
+    }
+  }
+}
